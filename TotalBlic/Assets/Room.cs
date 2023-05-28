@@ -13,13 +13,13 @@ public class Room : MonoBehaviour
 
     public void RotateRoom180()
     {
-        //transform.Rotate(0, 180, 0);
+        transform.Rotate(0, 0, 180);
 
-        //GameObject tmp = DoorTop;
-        //DoorTop = DoorBottom;
-        //DoorBottom = tmp;
-        //tmp = DoorLeft;
-        //DoorLeft = DoorRight;
-        //DoorRight = tmp;
+        GameObject tmp = DoorTop;
+        DoorTop = DoorBottom;
+        DoorBottom = tmp;
+        tmp = DoorLeft;
+        DoorLeft = DoorRight;
+        DoorRight = tmp;
     }
 }
