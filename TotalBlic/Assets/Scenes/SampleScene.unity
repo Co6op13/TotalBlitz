@@ -1221,7 +1221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4866744990097957178, guid: 04989e23ba7037a468fd769bb09d67cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.76
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4866744990097957178, guid: 04989e23ba7037a468fd769bb09d67cd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1259,6 +1259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoalPoints300
       objectReference: {fileID: 0}
+    - target: {fileID: 7938308334827476503, guid: 04989e23ba7037a468fd769bb09d67cd, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7913746657554583702, guid: 04989e23ba7037a468fd769bb09d67cd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 04989e23ba7037a468fd769bb09d67cd, type: 3}
@@ -1272,6 +1276,10 @@ PrefabInstance:
     - target: {fileID: 2036896746429347145, guid: ae4c156b4b336bf419af1a32e68d60e1, type: 3}
       propertyPath: m_Name
       value: GoalPoints200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036896746429347145, guid: ae4c156b4b336bf419af1a32e68d60e1, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7922470453984843607, guid: ae4c156b4b336bf419af1a32e68d60e1, type: 3}
       propertyPath: m_RootOrder
@@ -1382,6 +1390,10 @@ PrefabInstance:
     - target: {fileID: 8315742570201890291, guid: 4db6628b53a94a641b2e0d6eb546837c, type: 3}
       propertyPath: m_Name
       value: GoalPoints100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315742570201890291, guid: 4db6628b53a94a641b2e0d6eb546837c, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1807861279162009699, guid: 4db6628b53a94a641b2e0d6eb546837c, type: 3}
